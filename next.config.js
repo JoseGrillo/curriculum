@@ -2,10 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   experimental: { appDir: true },
-  // i18n: {
-  //   locales: ['en', 'es'],
-  //   defaultLocale: 'en',
-  // }
+
 };
 
 
