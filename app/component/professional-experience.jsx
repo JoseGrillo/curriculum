@@ -11,7 +11,7 @@ const ProfessionalExperience = () => {
 
   return (
     <section>
-      <h2 className='mb-8 text-center font-bold  text-yellow underline decoration-4'> {title}</h2>
+      <h2 className='mb-8 text-center font-bold  text-black underline decoration-4'> {title}</h2>
       <div className='flex flex-col gap-6'>
         {experiences.map(({ role, description, current }) => (
           <div key={role} className='flex flex-col rounded-lg'>

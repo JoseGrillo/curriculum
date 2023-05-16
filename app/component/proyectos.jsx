@@ -12,7 +12,7 @@ const Proyectos = ({ data }) => {
 
   return (
     <section >
-      <h2 className='mb-8 text-center font-bold  text-yellow underline decoration-4'> {title}</h2>
+      <h2 className='mb-8 text-center font-bold  text-black underline decoration-4'> {title}</h2>
       <div className="flex flex-wrap justify-between ">
 
         {/* <div className="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3"> */}
@@ -42,12 +42,12 @@ const Proyectos = ({ data }) => {
                 <p className="text-gray-600 text-base mt-3">{descripcion}</p>
                 <div className="flex my-6 justify-center gap-2 ">
                   {activo &&
-                    <Link href={codigo} target="_blank" className='box-border h-7 w-20  border-2 text-center rounded-lg bg-yellow hover:bg-black hover:text-white ' >
+                    <Link href={codigo} target="_blank" rel="follow" className='box-border h-7 w-20  border-2 text-center rounded-lg bg-yellow hover:bg-black hover:text-white ' >
                       Codigo
                     </Link>
                   }
 
-                  <Link href={fuente} target="_blank" className='box-border h-7 w-20  border-2 text-center rounded-lg  bg-yellow hover:bg-black hover:text-white'>
+                  <Link href={fuente} target="_blank" rel="follow" className='box-border h-7 w-20  border-2 text-center rounded-lg  bg-yellow hover:bg-black hover:text-white' >
                     Fuente
                   </Link>
                 </div>

@@ -7,6 +7,7 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState("soft");
   const idioma = useIdioma()
   const data2 = idioma.idioma.skills
+  console.log("data2", data2.title)
 
 
   const setBg = (active) => (activeTab === active ? "bg-yellow" : "bg-grey");
@@ -41,7 +42,7 @@ const Skills = () => {
   );
   return (
     <div className="p-6">
-      <h2 className='mb-8 text-center font-bold  text-yellow underline decoration-4'> Habilidades</h2>
+      <h2 className='mb-8 text-center font-bold  text-black underline decoration-4'> {data2.title}</h2>
       {tabs}
       {content}
     </div>

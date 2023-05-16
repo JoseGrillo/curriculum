@@ -1,3 +1,19 @@
+import { TbBrandNextjs, TbBrandReactNative, TbSeo } from 'react-icons/tb';
+
+import { DiReact, DiNodejs, DiJavascript1, DiCss3Full, DiGithubFull } from 'react-icons/di';
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiExpress,
+  SiMongodb,
+  SiPrisma,
+  SiStyledcomponents,
+  SiMysql,
+  SiFigma,
+  SiSolidity,
+} from 'react-icons/si';
+
+
 export default {
   aboutMe: {
 
@@ -53,7 +69,7 @@ export default {
     ],
   },
   proyectos: {
-    title: "Proyectos",
+    title: "Projects",
     proyecto: [
       {
         id: 'world-1',
@@ -113,8 +129,11 @@ export default {
 
   },
   skills: {
+    title: "Skills",
     soft: [  //habilidades con la gente
-      { icon: "👂🏼", text: "Empathic" },
+      {
+        icon: "👂🏼", text: "Empathic"   //          
+      },
       { icon: "💬", text: "Effective Communication" },
       { icon: "👥", text: "Honest" },
       { icon: "⽓", text: "Teamwork" },
@@ -125,20 +144,58 @@ export default {
       { icon: "🧐", text: "Motivation and commitment" },
     ],
     hard: [   //habilidades de programacion
-      { icon: "💻", text: "Next.js" },
-      { icono: "TS", text: "TypeScript" },
-      { icon: "🚀", text: "React" },
-      { icon: "Ͷ", text: "Nodo" },
-      { icon: "💾", text: "MongoDB" },
-      { icon: "🏷️", text: "Prisma" },
-      { icon: "🧾", text: "MySQL" },
-      { icono: "📈", text: "GIT y GITHUB" },
-      { icon: "🌅", text: "Solidity" },
-      { icon: "🔋", text: "Ethers.js" },
+      { icon: "📗", text: "Corel Draw" },
+
+      {
+        icon: < DiCss3Full />, text: "CSS3"
+      },
       { icon: "📖", text: "Docusaurus" },
+      { icon: "🔋", text: "Ethers.js" },
+
+      {
+        icon: < SiExpress />, text: "Express"
+      },
+      {
+        icon: <SiFigma />, text: "Figma"
+      },
+      {
+        icon: <DiGithubFull size="1.7rem" />, text: "Git y GitHub"
+      },
+      {
+        icon: < DiJavascript1 />, text: "Javascript"
+      },
+      {
+        icon: <SiMongodb />, text: "MongoDB"
+      },
+      {
+        icon: <SiMysql size="2rem" />, text: "MySQL"
+      },
+
+
+      { icon: <TbBrandNextjs />, text: "Next.js" },
+      {
+        icon: <DiNodejs size="1.7rem" />, text: "Node"
+      },
+      { icon: <SiPrisma />, text: "Prisma" },
+      { icon: <DiReact />, text: "React" },
+      {
+        icon: <TbSeo />, text: "SEO (Search Eng ine Optimization)"
+      },
+      {
+        icon: <SiSolidity />, text: "Solidity"
+      },
       { icon: "📙", text: "Sony Vegas" },
-      { icono: "📗", text: "Corel Draw" },
-      { icono: "📘", text: "SEO (Search Eng ine Optimization)" },
+      {
+        icon: <SiStyledcomponents size="1.7rem" />, text: "Styled-Components"
+      },
+      {
+        icon: <SiTailwindcss />, text: "TailwindCSS"
+      },
+
+      {
+        icon: <SiTypescript />, text: "TypeScript"
+      },
+
     ],
   },
 } 

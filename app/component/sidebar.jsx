@@ -23,10 +23,10 @@ const Sidebar = () => {
         <div className=" flex gap-1 mb-6 text-sm items-baseline">
           <p>Idioma:</p>
           {/* <div className="flex-col gap-2"> */}
-          <button className="box-border h-9 w-16 border-2 text-center rounded-lg bg-yellow hover:bg-black hover:text-white "
+          <button className="box-border h-9 w-16 border-2 text-black text-center rounded-lg bg-yellow hover:bg-black hover:text-white "
             onClick={() => { idioma.ingles() }}>Ingles</button>
 
-          <button className="box-border h-9 w-16 border-2 text-center rounded-lg bg-yellow hover:bg-black hover:text-white" onClick={() => { idioma.español() }}> Español </button>
+          <button className="box-border h-9 w-16 border-2 text-black text-center rounded-lg bg-yellow hover:bg-black hover:text-white" onClick={() => { idioma.español() }}> Español </button>
           {/* </div> */}
 
         </div>
@@ -37,7 +37,7 @@ const Sidebar = () => {
             width={300}
             height={300}
             className='rounded-full h-full mb-6'
-            src='/images/JoseGrillo.png'
+            src='/images/JoseGrillo.webp'
             alt='jose Gregorio Grillo Hernandez'
 
           />
@@ -58,7 +58,7 @@ const Sidebar = () => {
             >
               <Envelope />
             </a> */}
-            <Link href={contactLinks?.[0]} target="_blank" className='icons-contactme'><Envelope /></Link>
+            <Link href={contactLinks?.[0]} target="_blank" className='icons-contactme' aria-label={"email link"}><Envelope /></Link>
             {/* <a
               className='icons-contactme'
               href={contactLinks?.[1]}
@@ -66,7 +66,7 @@ const Sidebar = () => {
             >
               <Twitter />
             </a> */}
-            <Link href={contactLinks?.[1]} target="_blank" className='icons-contactme'><Twitter /></Link>
+            <Link href={contactLinks?.[1]} target="_blank" className='icons-contactme' aria-label={"twitter link"}><Twitter /></Link>
             {/* <a
               className='icons-contactme'
               href={contactLinks?.[2]}
@@ -74,7 +74,7 @@ const Sidebar = () => {
             >
               <Whatsapp />
             </a> */}
-            <Link href={contactLinks?.[2]} target="_blank" className='icons-contactme'><Whatsapp /></Link>
+            <Link href={contactLinks?.[2]} target="_blank" className='icons-contactme' aria-label={"whatsapp link"}><Whatsapp /></Link>
             {/* <a
               className='icons-contactme'
               href={contactLinks?.[3]}
@@ -82,7 +82,7 @@ const Sidebar = () => {
             >
               <Discord />
             </a> */}
-            <Link href={contactLinks?.[3]} target="_blank" className='icons-contactme'> <Discord /></Link>
+            <Link href={contactLinks?.[3]} target="_blank" className='icons-contactme' aria-label={"discord link"}> <Discord /></Link>
           </div>
         </div>
       </div>
