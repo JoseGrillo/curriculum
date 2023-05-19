@@ -12,7 +12,7 @@ const SeoMe = () => {
 
   return (
     <section>
-      <h2 className='mb-8 text-center font-bold  text-black underline decoration-4'> {title} </h2>
+      <h2 className='mb-8 text-center font-bold text-black underline decoration-4'> {title} </h2>
       <div className="h-2 bg-green" />
       <div className="bg-grey-light p-6 drop-shadow-md relative">
 
