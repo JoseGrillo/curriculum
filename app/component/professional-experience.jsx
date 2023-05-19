@@ -17,7 +17,7 @@ const ProfessionalExperience = () => {
           <div key={role} className='flex flex-col rounded-lg'>
             <span className={`h-2 ${current ? "bg-green" : "bg-grey"}`} />
             <div className='bg-grey-light p-6 drop-shadow-md'>
-              <h3 className="text-yellow font-bold">{role}</h3>
+              <h2 className="text-black-[#305378] font-bold">{role}</h2>
               <p className='mt-2'>{description}</p>
             </div>
           </div>

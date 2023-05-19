@@ -4,7 +4,7 @@ import useIdioma from "../../hook/useIdioma";
 
 
 const Skills = () => {
-  const [activeTab, setActiveTab] = useState("soft");
+  const [activeTab, setActiveTab] = useState("hard");  //soft
   const idioma = useIdioma()
   const data2 = idioma.idioma.skills
   console.log("data2", data2.title)

@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     colors: {
       black: "#0F1624",//"#191A19",
-      yellow: "#8090F8", //"#4257BD", //"#6E2F59", //"#FF5722", //"#FFF734",  //Pestaña
+      yellow: "#C1E6E6 ", //Pestaña    #8090F8
       green: "#4257BD", //"#6E2F59", //"#FF5722", //"#68F590",    // franja
       grey: "#F3F3F3",               //burbuja de skill
       "grey-light": "#FAFAFA",

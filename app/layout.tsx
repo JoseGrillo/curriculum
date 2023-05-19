@@ -19,7 +19,7 @@ export default function RootLayout({
       <head />
 
       <body
-        className="flex flex-col sm:flex-row  bg-[#61add3] "
+        className="flex flex-col sm:flex-row  bg-[#305378] "
         //  bg-[#61add3]
       >
         <Sidebar />

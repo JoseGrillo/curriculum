@@ -23,7 +23,7 @@ export default {
     ],
   },
   personalData: {
-    id: "en",
+    id: "es",//en
     name: "Jose Grillo",
     role: "Desarrollador Full-Stack",
     education: [

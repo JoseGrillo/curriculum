@@ -22,7 +22,7 @@ const Proyectos = ({ data }) => {
 
             <div className="max-w-sm w-full bg-white shadow-lg rounded-lg overflow-hidden  ">
               <div className="px-4 py-2">
-                <h1 className="text-gray-900 font-bold text-2xl ">{title}</h1>
+                <h2 className="text-gray-900 font-bold text-2xl ">{title}</h2>
               </div>
 
               <div className="h-64 w-96 relative px-2">
@@ -75,3 +75,5 @@ export default Proyectos;
 //       codigo: "",
 //       fuente: "",
 //     },
+
+
