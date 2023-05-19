@@ -22,6 +22,7 @@ const AboutMe = () => {
           </p>
         ))}
       </div>
+      <div className="h-2 bg-green" />
       <Skills />
     </section>
   );

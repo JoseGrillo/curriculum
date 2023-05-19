@@ -13,7 +13,7 @@ const Sidebar = () => {
 
   const idioma = useIdioma()
   const { id, name, role, education, contactLinks } = idioma.idioma.personalData
-  console.log("id ", id, name)
+
 
   return (
     <div className='bg-black flex flex-col  w-full h-auto sm:h-screen sm:justify-stretch sm:w-1/3   overflow-auto items-stretch sm:fixed '>

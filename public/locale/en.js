@@ -198,4 +198,10 @@ export default {
 
     ],
   },
+  miSeo: {
+    title: "IMPROVING THE QUALITY AND PERFORMANCE OF MY WEBSITE",
+    body: [
+      "I am proud to share the results of my SEO and optimization work on the website https://josegrillo.vercel.app/. Thanks to a comprehensive strategy and proper content optimization, I managed to significantly improve the organic positioning of the page and the user experience. If you are interested in learning more about my SEO strategies and achievements, feel free to contact me!",
+    ],
+  },
 } 

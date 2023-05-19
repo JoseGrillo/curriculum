@@ -7,7 +7,7 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState("hard");  //soft
   const idioma = useIdioma()
   const data2 = idioma.idioma.skills
-  console.log("data2", data2.title)
+
 
 
   const setBg = (active) => (activeTab === active ? "bg-yellow" : "bg-grey");

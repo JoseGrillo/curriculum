@@ -195,4 +195,11 @@ export default {
 
     ],
   },
+  miSeo: {
+    title: "MEJORANDO LA CALIDAD Y RENDIMIENTO EN MI  WEB",
+    body: [
+      "Me enorgullece compartir los resultados de mi trabajo en SEO y optimización en el sitio web https://josegrillo.vercel.app/. Gracias a una estrategia integral y una optimización de contenido adecuada, logré mejorar significativamente el posicionamiento orgánico de la página y la experiencia del usuario. Si estás interesado en conocer más detalles sobre mis estrategias y logros en SEO, ¡no dudes en contactarme!",
+    ],
+  },
+
 } 

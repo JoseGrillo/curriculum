@@ -9,9 +9,9 @@ module.exports = {
     colors: {
       black: "#0F1624",//"#191A19",
       yellow: "#C1E6E6 ", //Pestaña    #8090F8
-      green: "#4257BD", //"#6E2F59", //"#FF5722", //"#68F590",    // franja
+      green: "#0F1624 ", // 4257BD  "#6E2F59", //"#FF5722", //"#68F590",    // franja
       grey: "#F3F3F3",               //burbuja de skill
-      "grey-light": "#FAFAFA",
+      "grey-light": "#FAFAFA",  //para
       "green-light": "#FAFAFA",//"#d2eff1",
       white: "#F5F5F5" //"#fff",
     },
