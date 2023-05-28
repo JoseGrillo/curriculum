@@ -70,7 +70,17 @@ export default {
   },
   proyectos: {
     title: "Projects",
+
     proyecto: [
+      {
+        id: 'world-0',
+        imgUrl: '/images/colibric.webp',
+        title: 'Colibric',
+        descripcion: "Development of a side project that allows users to compare prices and save on their purchases of basic products in local supermarkets, while at the same time providing a tool for supermarkets to promote their products and offers effectively. We seek to create a virtuous circle that benefits both users and local supermarkets, thus boosting the growth of both groups.",
+        codigo: "",
+        fuente: "https://colibric.es/",
+        activo: false,
+      },
       {
         id: 'world-1',
         imgUrl: '/images/landing-tailwind.webp',

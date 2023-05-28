@@ -71,6 +71,15 @@ export default {
     title: "Proyectos",
     proyecto: [
       {
+        id: 'world-0',
+        imgUrl: '/images/colibric.webp',
+        title: 'Colibric',
+        descripcion: "Elaboración de un side project  que permita a los usuarios comparar precios y ahorrar en sus compras de productos básicos en supermercados locales, al mismo tiempo que brinda una herramienta para que los supermercados puedan promover sus productos y ofertas de manera efectiva. Buscamos crear un círculo virtuoso que beneficie tanto a los usuarios como a los supermercados locales, impulsando de esta manera el crecimiento de ambos grupos.",
+        codigo: "",
+        fuente: "https://colibric.es/",
+        activo: false,
+      },
+      {
         id: 'world-1',
         imgUrl: '/images/landing-tailwind.webp',
         title: 'Landing Page',

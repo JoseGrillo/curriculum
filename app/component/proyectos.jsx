@@ -30,7 +30,7 @@ const Proyectos = ({ data }) => {
                   src={imgUrl}
                   alt="A beautiful image"
                   fill
-                  style={{ objectFit: "cover" }}
+                  style={{ objectFit: "contain" }} //cover
 
                   sizes="(max-w-full)"
 
@@ -64,16 +64,5 @@ const Proyectos = ({ data }) => {
 
 export default Proyectos;
 
-
-// esto es lo que trae data
-// title: "Proyectos",
-//   proyecto: [
-//     {
-//       id: 'world-1',
-//       imgUrl: '/images/imag_01.webp',
-//       title: 'Consultoria Proteccion de Datos',
-//       codigo: "",
-//       fuente: "",
-//     },
 
 

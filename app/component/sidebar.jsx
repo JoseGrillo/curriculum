@@ -37,7 +37,7 @@ const Sidebar = () => {
             width={300}
             height={300}
             className='rounded-full h-full mb-6'
-            src='/images/JoseGrillo.webp'
+            src='/images/Jose_G_Grillo.jpg' //' /images/JoseGrillo.webp'
             alt='jose Gregorio Grillo Hernandez'
 
           />
