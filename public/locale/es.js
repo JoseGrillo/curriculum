@@ -25,7 +25,7 @@ export default {
   personalData: {
     id: "es",//en
     name: "Jose Grillo",
-    role: "Desarrollador Full-Stack",
+    role: "Desarrollador de next.js",
     education: [
       "Tecnico en Informatica, Univ. Tecnologica del Centro (1988-1990)",
       "Abogado, Univ.. Bolivariana de Venezuela (2005-2010)",
