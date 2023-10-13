@@ -133,6 +133,15 @@ export default {
         fuente: "",
         activo: false,
       },
+      {
+        id: 'world-7',
+        imgUrl: '/images/Hilink.png',
+        title: 'Zona de acampada',
+        descripcion: "En este proyecto, procedi a la creación de una interfaz de usuario elegante que también funciona a la perfección con varias secciones como Heroe, campamentos a explorar, guia de viajes. ",
+        codigo: "",
+        fuente: "https://hilink-ten.vercel.app/",
+        activo: false,
+      },
     ],
 
   },

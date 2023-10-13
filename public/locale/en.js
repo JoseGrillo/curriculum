@@ -135,6 +135,16 @@ export default {
         fuente: "",
         activo: false,
       },
+      ,
+      {
+        id: 'world-7',
+        imgUrl: '/images/Hilink.png',
+        title: 'Camping area',
+        descripcion: "In this project, I proceeded to create an elegant user interface that also works seamlessly with various sections such as Hero, camps to explore, travel guide. ",
+        codigo: "",
+        fuente: "https://hilink-ten.vercel.app/",
+        activo: false,
+      },
     ],
 
   },
