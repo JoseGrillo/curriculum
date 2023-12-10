@@ -80,6 +80,15 @@ export default {
         activo: false,
       },
       {
+        id: 'world-0-A',
+        imgUrl: '/images/trello.png',
+        title: 'Trello',
+        descripcion: "Desarrollé un clon de Trello utilizando las siguientes tecnologías: Next.js 14,  Server Actions, React, Mongodb,   Prisma, Stripe, Tailwind.  La aplicación incluye todas las características básicas de Trello, como espacios de trabajo, tableros, listas, tarjetas, registros de auditoría/actividad y roles de miembros.  Suscripción de Stripe para cada organización para desbloquear tableros ilimitados",
+        codigo: "",
+        fuente: "https://next13-trello-mu.vercel.app",
+        activo: false,
+      },
+      {
         id: 'world-1',
         imgUrl: '/images/landing-tailwind.webp',
         title: 'Landing Page',
